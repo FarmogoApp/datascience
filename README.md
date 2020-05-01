@@ -1,13 +1,13 @@
 # DataScience
-This project is an activity for UDL.<br>
-Subject: INTENSIVE DATA PROCESSING SYSTEMS
+This project is an activity for: **Universitat de Lleida -  Master's Degree in Informatics Engineering**<br>
+Subject: **INTENSIVE DATA PROCESSING SYSTEMS**
 
 ## Preparing envirmoment (Mac/Linux)
 - You need: Python 3 installed (no instructions hear for this)
-- Install Virtualenv: pip install virtualenv
-- Create VirtualEnv: virtualenv venv
-- Activate: source venv/bin/activate
-- Install Pandas library: pip install pandas
+- Install Virtualenv: ```pip install virtualenv```
+- Create VirtualEnv: ```virtualenv venv```
+- Activate: ```source venv/bin/activate```
+- Install Pandas library: ```pip install pandas```
 
 I used Pycharm IDE and all of this steps It has done and I could left someone.(say me, sorry)
 
@@ -31,4 +31,8 @@ There are 3 types of notebooks: Analysing file by file, analisin files of same s
 data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/cryptocurrencypricehistory.tgz to cryptocurrency/data/raw 
 
 ### iris
-data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/iris.data to iris/data/raw 
+data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/iris.data to iris/data/raw
+
+## How to create another project
+- Install cookiecutter: ```pip install cookiecutter```
+- Run this sentence and fill data that it ask for: ```cookiecutter https://github.com/drivendata/cookiecutter-data-science```
