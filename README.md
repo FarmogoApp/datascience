@@ -37,3 +37,9 @@ data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/iris.dat
 ## How to create another project
 - Install cookiecutter: ```pip install cookiecutter```
 - Run this sentence and fill data that it ask for: ```cookiecutter https://github.com/drivendata/cookiecutter-data-science```
+
+## Authors
+
+* **Sergi Trujillo** - (https://github.com/sergitrujillo)
+* **Jose Manuel Broto** - (https://github.com/josemanuel97)
+* **Oriol Jorge** - (https://github.com/orioljorge)
