@@ -9,12 +9,15 @@ Subject: **INTENSIVE DATA PROCESSING SYSTEMS**
 - Activate: ```source venv/bin/activate```
 - Install Pandas library: ```pip install pandas```
 - Install Seaborn libary: ```pip install seaborn```
+- Install Numpy: ```pip install numpy```
+- Install Jupyter: ```pip install jupyter```
 
-I used Pycharm IDE and all of this steps It has done and I could left someone.(say me, sorry)
+We have used Pycharm IDE and all of this steps It has done and I could left someone.(say me, sorry)
 
 ## Where are all?
-- {project}/notebooks/ : have Jupiter Notebooks where are all tasks done.
-- {project}/data/raw : where are to download an extract data to process
+- {project}/notebooks/ : Jupiter Notebooks where are all tasks done.
+- {project}/data/raw : where we have data to be processed
+- {project}/data/processed : where clean data is saved
 
 ##Projects
 ### measures
@@ -29,10 +32,16 @@ There are 3 types of notebooks: Analysing file by file, analisin files of same s
 - notebooks starting by combine_{type}_data: analises all sensors of same type of data.
 
 ### cryptocurrency
+#### preparing
 data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/cryptocurrencypricehistory.tgz to cryptocurrency/data/raw 
+#### some notes
+
 
 ### iris
+#### preparing
 data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/iris.data to iris/data/raw
+#### some notes
+
 
 ## How to create another project
 - Install cookiecutter: ```pip install cookiecutter```
