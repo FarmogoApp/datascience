@@ -2,17 +2,18 @@
 This project is an activity for: **Universitat de Lleida -  Master's Degree in Informatics Engineering**<br>
 Subject: **INTENSIVE DATA PROCESSING SYSTEMS**
 
-## Preparing envirmoment (Mac/Linux/Windows)
+## Preparing envirmoment (Mac/Linux)
 - You need: Python 3 installed (no instructions hear for this)
 - Install Virtualenv: ```pip install virtualenv```
 - Create VirtualEnv: ```virtualenv venv```
 - Activate: ```source venv/bin/activate```
+> **_NOTE:_** For indications of VirtualEnv for other OS o more information: https://docs.python.org/3/library/venv.html
+
+## Libraries to be installed
 - Install Pandas library: ```pip install pandas```
 - Install Seaborn libary: ```pip install seaborn```
 - Install Numpy: ```pip install numpy```
 - Install Jupyter: ```pip install jupyter```
-
-We have used Pycharm IDE and all of this steps It has done and I could left someone.(say me, sorry)
 
 ## Where are all?
 - {project}/notebooks/ : Jupiter Notebooks where are all tasks done.
@@ -39,6 +40,12 @@ data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/cryptocu
 #### some notes
 All files are in csv format
 
+Data are analized with two orientations:
+- **Analize all files of prices**: All files have the same format and the same type of data. 
+For this we could make an only one notebook of Jupiter where each file can be selected and viwed. 
+- **Analize one by one dataset files**: This files have a lot of columns an has a jupiter notebook for each one. 
+It has analized column by column and try to get conclusions and clean and improve data.
+
 
 ### iris
 #### preparing
@@ -46,6 +53,7 @@ data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/iris.dat
 #### some notes
 The file format is .data
 This Dataset has five features which are Petal Length, Petal Width, Sepal Length, Sepal Width and Species Type.
+The work has done to try to view some error and clean if any exists.
 
 ## How to create another project
 - Install cookiecutter: ```pip install cookiecutter```
