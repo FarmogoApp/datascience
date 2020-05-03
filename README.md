@@ -8,6 +8,7 @@ Subject: **INTENSIVE DATA PROCESSING SYSTEMS**
 - Create VirtualEnv: ```virtualenv venv```
 - Activate: ```source venv/bin/activate```
 - Install Pandas library: ```pip install pandas```
+- Install Seaborn libary: ```pip install seaborn```
 
 I used Pycharm IDE and all of this steps It has done and I could left someone.(say me, sorry)
 
