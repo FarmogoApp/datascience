@@ -25,6 +25,7 @@ We have used Pycharm IDE and all of this steps It has done and I could left some
 data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/measures.tgz to measures/data/raw
 #### some notes
 Data is in two formats csv and json.
+We have data of 3 kind of sensor: Pressure, Temperature, Humidty
 All files has same structure of information: time, value and sendor.
 There are 3 types of notebooks: Analysing file by file, analisin files of same sensor and analising by same type of data.
 - notebooks with name of data file analyses one value of sensor.
