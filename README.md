@@ -35,13 +35,14 @@ There are 3 types of notebooks: Analysing file by file, analisin files of same s
 #### preparing
 data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/cryptocurrencypricehistory.tgz to cryptocurrency/data/raw 
 #### some notes
+All files are in csv format
 
 
 ### iris
 #### preparing
 data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/iris.data to iris/data/raw
 #### some notes
-
+The file format is .data
 
 ## How to create another project
 - Install cookiecutter: ```pip install cookiecutter```
