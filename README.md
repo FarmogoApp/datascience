@@ -30,6 +30,7 @@ There are 3 types of notebooks: Analysing file by file, analisin files of same s
 - notebooks with name of data file analyses one value of sensor.
 - notebooks starting by combine_data_{sensor}:   analises all data of same sensor.
 - notebooks starting by combine_{type}_data: analises all sensors of same type of data.
+We have included Util.py with load and save functions
 
 ### cryptocurrency
 #### preparing
@@ -43,6 +44,7 @@ All files are in csv format
 data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/iris.data to iris/data/raw
 #### some notes
 The file format is .data
+This Dataset has five features which are Petal Length, Petal Width, Sepal Length, Sepal Width and Species Type.
 
 ## How to create another project
 - Install cookiecutter: ```pip install cookiecutter```
