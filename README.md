@@ -20,7 +20,7 @@ Subject: **INTENSIVE DATA PROCESSING SYSTEMS**
 - {project}/data/raw : where we have data to be processed
 - {project}/data/processed : where clean data is saved
 
-##Projects
+## Projects
 ### measures
 #### preparing
 data to download form:  http://codeandbeer.org/virtual/BigData/Datasets/measures.tgz to measures/data/raw
